@@ -1,0 +1,7 @@
+# Copyright 2022 Manna Harbour
+# https://github.com/manna-harbour/miryoku
+
+outboard_repository=justinbinder/zmk-config
+outboard_ref=master
+outboard_from=config/boards/shields/dactyl_cc
+outboard_to=boards/shields/dactyl_cc
