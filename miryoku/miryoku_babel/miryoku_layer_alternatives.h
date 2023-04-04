@@ -379,9 +379,12 @@ U_NP,              U_NP,              U_NA,              U_NA,              U_NA
 &kp F10,           &kp F1,            &kp F2,            &kp F3,            &kp PAUSE_BREAK,   U_NA,              &u_to_U_FUN,       &u_to_U_MEDIA,     &kp RALT,          U_NA,              \
 U_NP,              U_NP,              &kp K_APP,         &kp SPACE,         &kp TAB,           U_NA,              U_NA,              U_NA,              U_NP,              U_NP
 
+  #define U_WCY &kp LG(TILDE)
+  #define U_TCL &kp LG(LBRC)
+  #define U_TCR &kp LG(RBRC)
 
 #define MIRYOKU_ALTERNATIVES_BUTTON \
-U_UND,             U_CUT,             U_CPY,             U_PST,             U_RDO,             U_RDO,             U_PST,             U_CPY,             U_CUT,             U_UND,             \
+U_TCL,             U_CUT,             U_CPY,             U_PST,             U_TCR,             U_RDO,             U_PST,             U_CPY,             U_CUT,             U_UND,             \
 &kp LGUI,          &kp LALT,          &kp LCTRL,         &kp LSHFT,         U_NU,              U_NU,              &kp LSHFT,         &kp LCTRL,         &kp LALT,          &kp LGUI,          \
 U_UND,             U_CUT,             U_CPY,             U_PST,             U_RDO,             U_RDO,             U_PST,             U_CPY,             U_CUT,             U_UND,             \
-U_NP,              U_NP,              U_BTN3,            U_BTN1,            U_BTN2,            U_BTN2,            U_BTN1,            U_BTN3,            U_NP,              U_NP
+U_NP,              U_NP,              U_WCY,             &kp SPACE,         &kp RET,            U_BTN2,            U_BTN1,            U_BTN3,            U_NP,              U_NP
