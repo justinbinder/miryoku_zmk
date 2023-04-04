@@ -1,0 +1,5 @@
+config SHIELD_BANANASPLIT_LEFT
+    def_bool $(shields_list_contains,bananasplit_left)
+
+config SHIELD_BANANASPLIT_RIGHT
+    def_bool $(shields_list_contains,bananasplit_right)
