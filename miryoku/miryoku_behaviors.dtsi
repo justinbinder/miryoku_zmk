@@ -11,6 +11,27 @@
       flavor = "tap-preferred";
       bindings = <&kp>, <&kp>;
     };
+    u_mts: u_mts {
+      compatible = "zmk,behavior-hold-tap";
+      label = "u_mts";
+      #binding-cells = <2>;
+      tapping_term_ms = <125>;
+      flavor = "tap-preferred";
+      quick-tap-ms = <125>;
+      global-quick-tap;
+      bindings = <&kp>, <&kp>;
+    };
+    u_mtc: u_mtc {
+      compatible = "zmk,behavior-hold-tap";
+      label = "u_mt_cmd";
+      #binding-cells = <2>;
+      tapping_term_ms = <350>;
+      flavor = "tap-preferred";
+      quick-tap-ms = <125>;
+      global-quick-tap;
+      bindings = <&kp>, <&kp>;
+    };
+
     u_lt: u_lt {
       compatible = "zmk,behavior-hold-tap";
       label = "u_lt";
