@@ -18,7 +18,7 @@
       label = "u_mts";
       #binding-cells = <2>;
       tapping_term_ms = <150>;
-      flavor = "hold-preferred";
+      flavor = "balanced";
       quick-tap-ms = <125>;
       global-quick-tap;
       bindings = <&kp>, <&kp>;
@@ -30,7 +30,7 @@
       label = "u_mtsr";
       #binding-cells = <2>;
       tapping_term_ms = <150>;
-      flavor = "hold-preferred";
+      flavor = "balanced";
       quick-tap-ms = <125>;
       global-quick-tap;
       bindings = <&kp>, <&kp>;
